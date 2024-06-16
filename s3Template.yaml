@@ -1,0 +1,6 @@
+Resources:
+  S3BucketFromConsole:
+    Type: AWS::S3::Bucket
+    Properties:
+      AccessControl: Private
+      BucketName: lab-3-from-console
